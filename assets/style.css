@@ -71,7 +71,7 @@ header a {
     font-weight: bold;
 
 }
-
+/* about me section */
 .AboutMe {
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ header a {
     padding: 0 45px;
     width: 700px;
 }
-
+/* work section css */
 .Work {
     display:flex;
     justify-content:space-between;
@@ -98,7 +98,7 @@ header a {
     display: grid;
     justify-content: space-evenly;
 }
-
+/* images section */
 .horiseon img {
     width: 300px;
     height: 500px;
@@ -131,6 +131,8 @@ header a {
 }
 
 */
+
+/* contacts section */
 .ContactMe {
     flex-wrap: wrap;   
     display:inline-flex;
@@ -151,7 +153,7 @@ header a {
     justify-content: center;
     display: inline-flex;
 }
-
+/* resume section */
 .Resume {
     display: flex;
     flex-wrap:wrap;
