@@ -5,26 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carson James Portfolio</title>
+    <title>Carson James' Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 
 <body>
     <header>
+        <div>
         <!--TODO nav links-->
-        <h1>
-            Carson James
-        </h1>
-        <nav>
-            <a href="#AboutMe">About Me</a>
-            <a href="#Work">Work</a>
-            <a href="#ContactMe#">Contact Me</a>
-            <a href="#Resume">Resume</a>
-        </nav>
+            <h1>
+            Carson James' Portfolio
+            </h1>
+        </div>
+            <nav>
+            <ul>
+                <li>
+                    <a href="#AboutMe">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#ContactMe">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
+            </ul>
+            </nav>
     </header>
-    <main>
-        <section>
-            <div class="column">
-                <h3 id="AboutMe">About Me</h3>
+
+    <section class="hero">
+        <div>
+            <img src="./assets/images/aboutme.JPG" alt="Selfie of Carson James">
+        </div>
+    </section>
+
+    <section id="AboutMe" class="AboutMe">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
                 <p>
                     My name is Carson James. I am 24 years old. I have 2 dogs, Harper and Cooper. Cooper has just joined
                     my circle. He is my girlfriends puppy. I am a college graduate from the University of North Carolina
@@ -32,7 +52,7 @@
                     a commission sales job with Verizon Wireless. I am taking this course to advance my career and get
                     out of my current role in the job that I am in and hopefully find a passionate career in the world
                     of coding and web development.
-
+                    <br><br>
                     Hobbies I enjoy include cooking, baseball/softball, golf, video games, and traveling. Some other fun
                     facts about me include being left-handed and having green eyes. I am also the spitting image of my grandfather when he was younger. 
                 </p>
@@ -41,59 +61,48 @@
                 </code></pre>
             </div>
         </section>
-        <section>
-            <div class="card">
-                <h3 id="Work">Work</h3>
-                <img src="./assets/images/Horiseon-Work.png" alt="Depiction of students first week challenge"/>
-                <img src="./assets/images/Study-Guide-Work.png" alt="Depiction of my prework study guide for the bootcamp."/>
-                <p>
-                </p>
-                <pre><code>
-                    <!--code-->
-                </code></pre>
+
+        <section id="Work" class="Work">
+            <div class="title">
+                <h2 id="Work">Work</h2>
+            </div>
+                <div class="horiseon">
+                    <img src="./assets/images/Horiseon-Work.png" alt="Depiction of students first week challenge"/>
+                    <a href="https://carsonjames1125.github.io/challenge-1-carsonjames/"> Horiseon Challenge</a>
+                </div>
+                <div class="prework">
+                    <img src="./assets/images/Study-Guide-Work.png" alt="Depiction of my prework study guide for the bootcamp."/>
+                    <a href="https://carsonjames1125.github.io/prework-study-guide/">Prework Study Guide</a>
+                </div>
             </div>         
         </section>
 
-        <section>
-            <div class="column">
-                <h3 id="ContactMe">Contact Me</h3>
-                <p>
-                    <ul>
-                        <li>
-                            Name: Carson James
-                        </li>
-                        <li>
-                            Email: <a href="mailto:tarheelkid44@yahoo.com">tarheelkid44@yahoo.com</a>
-                        </li>
-                        <li>
-                            Phone Number: <a href="tel:7046823501">704-682=3501</a>
-                        </li>
-                        <li>
-                            LinkedIn: <a href="https://www.linkedin.com/in/carson-james-59777024b/">LinkedIn Profile</a>
-                        </li>
-                    </ul>
-                </p>
-                <pre><code>
-                    <!--code-->
-                </code></pre>
+        <section id="ContactMe" class="ContactMe">
+            <div class="title">
+                <h2 id="ContactMe">Contact Me</h2>
+            </div>
+                    <div id="contacts">
+                        <p>
+                            <a href="https://github.com/carsonjames1125">GitHub Profile</a>
+                            <a href="mailto:tarheelkid44@yahoo.com">Email</a>
+                            <a href="tel:1234567890">125-456-7890</a>
+                            <a href="https://www.linkedin.com/in/carson-james-59777024b/">LinkedIn Profile</a>
+                        </p>    
+            </div>
             </div>
         </section>
-        <section>
-            <div class="column">
-                <h3 id="Resume">Resume</h3>
-                <p>
-                    This is where my Resume will go for the assignment.
-                </p>
-                <pre><code>
-                    <!--code-->
-                </code></pre>
+
+        <section id="Resume" class="Resume">
+            <div class="title">
+                <h2 id="Resume">Resume</h2>
+            <div id="resume">
+                    <a href="./assets/Carson James -- Resume.pdf">My Resume</a>
             </div>
         </section>
-    </main>
 </body>
 <footer>
     <!--insert footer here-->
-    Carson James Assignment (to be changed later)
+    Carson James Portfolio 
 </footer>
 
 </html>

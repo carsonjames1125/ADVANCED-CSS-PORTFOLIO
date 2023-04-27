@@ -1,0 +1,169 @@
+/* total document styling to the body*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: beige;
+}
+/* added header styling */
+header {
+    background-color:teal;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-style:solid;
+    border-color: yellow;
+    border-width: 5px;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 20px;
+    border-style:double;
+    border-width: 4.5px;
+    color: purple;
+}
+/* positioned and styled the nav links*/
+header a {
+    list-style: none;
+    justify-content: right;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 23px;
+    font-weight:bold;
+    margin: 5px 15px 5px 0px;
+    list-style-type: none;
+}
+/* gave styling and positioning to the background images and positioned them*/
+.hero {
+    background-image: url(./images/coverphoto.jpeg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+}
+
+.hero img {
+    height: 350px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(72, 177, 212);
+}
+/* gave the title section styling and needed to set the styling for other .title selectors*/
+.title {
+    border-right: 5px solid;
+    border-color: yellow;
+    padding-right: 300px;
+    text-align: right;
+    min-width: 250px;
+    max-width: 250px;
+}
+.title h2 {
+    font-size:50px;
+    font-weight: bold;
+
+}
+
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 45px;
+}
+
+.AboutMe p {
+    font-size: 25px;
+    padding: 0 45px;
+    width: 700px;
+}
+
+.Work {
+    display:flex;
+    justify-content:space-between;
+    padding: 30px 0;
+    text-align: right;
+}
+
+.Work img {
+    height:175px;
+    width: 300px;
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.horiseon img {
+    width: 300px;
+    height: 500px;
+}
+
+.horiseon a {
+    display:flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.prework img {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.prework a {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+/*
+.ContactMe {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-top:40px;
+    margin-bottom: 40px;
+    
+}
+
+*/
+.ContactMe {
+    flex-wrap: wrap;   
+    display:inline-flex;
+    padding: 10px 10px 10px 0px;
+    align-items: center;
+    text-decoration: none;
+    text-indent: 55px;
+    justify-content: space-evenly;
+
+}
+*/
+
+.contacts p {
+    margin-left: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.Resume {
+    display: flex;
+    flex-wrap:wrap;
+    padding-bottom: 15px;
+}
+
+footer {
+    display: block;
+    background-color: yellow;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0px 0px 0px
+}
