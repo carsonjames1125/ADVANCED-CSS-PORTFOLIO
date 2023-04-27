@@ -10,7 +10,7 @@ N/A
 
 ## Installation
 
-1. I created the 
+I created the index.html and added my content to the document. After that, I used the CSS style sheet to give my page styling to make the content more visually appealing. Whilst doing both the HTML and CSS, I added photos to the two documents to fulfill the requirements and added extra styling. Once both the CSS and HTML documents were finished, I did my final git push function to my repository. Once thse loaded I used Github pages to push the repository live. 
 
 ## Usage
 
