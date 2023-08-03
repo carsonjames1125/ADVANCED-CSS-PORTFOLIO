@@ -136,6 +136,13 @@ header a {
     color: black;
     border-radius: 5px;
 }
+
+.car-bidz img {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
 /*
 .ContactMe {
     display: flex;
@@ -248,4 +255,4 @@ footer {
     .Resume {
         flex-direction: column;
     }
-}
+
