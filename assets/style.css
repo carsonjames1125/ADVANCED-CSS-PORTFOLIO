@@ -140,8 +140,6 @@ header a {
 .car-bidz img {
     display: flex;
     flex-wrap: wrap;
-    
-
 }
 /*
 .ContactMe {
@@ -154,6 +152,11 @@ header a {
 }
 
 */
+.focusfolio img {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 /* contacts section */
 .ContactMe {
